@@ -3,8 +3,13 @@ body {
     color: #fbfbfb;
 }
 
+.container{
+    justify-content: center;
+}
+
 .navbar{
     background-color: #fbfbfb;
+    color: #343a40;
 }
 
 .carrosel{
@@ -12,10 +17,23 @@ body {
     margin-bottom: 10%;
     margin-top: 10%;
 }
+
 .footer{
     background-color: #fbfbfb;
 }
 
-.container{
-    justify-content: center;
+.lista ul{
+    display: flex;
+    list-style: none;
+}
+
+.lista li{
+    padding-left: 7px;
+    font-size: 28px;
+}
+
+.pe{
+    margin-bottom: 0;
+    margin-top: 3%;
+    color: #343a40;
 }
