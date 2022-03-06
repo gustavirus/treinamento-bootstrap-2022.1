@@ -1,0 +1,21 @@
+body {
+    background-color: #343a40;
+    color: #fbfbfb;
+}
+
+.navbar{
+    background-color: #fbfbfb;
+}
+
+.carrosel{
+    /* max-width: 900px;  */
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+.footer{
+    background-color: #fbfbfb;
+}
+
+.container{
+    justify-content: center;
+}
