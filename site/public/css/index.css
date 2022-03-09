@@ -2,10 +2,9 @@ body {
     background-color: #343a40;
     color: #fbfbfb;
 }
-/* 
+
 .container{
-    justify-content: center;
-} */
+} 
 
 .navbar{
     background-color: #fbfbfb;
@@ -50,5 +49,13 @@ body {
 } 
 
 .cartao{
+    color: #343a40;
+}
+
+.titulo-modal{
+    color: #343a40;
+}
+
+.corpo-modal{
     color: #343a40;
 }
