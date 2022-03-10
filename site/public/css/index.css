@@ -3,10 +3,7 @@ body {
     color: #fbfbfb;
 }
 
-.container{
-} 
-
-.navbar{
+.cima{
     background-color: #fbfbfb;
     color: #343a40;
 }
@@ -16,7 +13,7 @@ body {
     margin-top: 10%;
 }
 
-.footer{
+.baixo{
     background-color: #fbfbfb;
 }
 
@@ -34,21 +31,23 @@ body {
     color: #343a40;
 }
 
-.foot{
+.jumbo{
     margin-bottom: 0;
     margin-top: 3%;
     color: #343a40;
 }
 
-.fundo{
+.mensagem{
     padding-bottom: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .formulario{
     color: #343a40;
 } 
 
-.cartao{
+.carta{
     color: #343a40;
 }
 
