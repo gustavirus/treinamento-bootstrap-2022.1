@@ -86,3 +86,11 @@ body {
     height: 10rem;
     object-fit: cover;
 }
+
+.rodape {
+    background-color: beige;
+}
+
+.mensagem {
+    width: 50%;
+}
