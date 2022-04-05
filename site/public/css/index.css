@@ -4,9 +4,11 @@ body {
 
 
 
+/* COISAS DA NAVBAR  */
+
+
 
 .navbar-site {
-    /* background-color:rgb(107, 44, 19) !important; */
     background-color: #71563e !important;
     box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.438);
 }
@@ -30,6 +32,16 @@ body {
     color: gainsboro !important;
 }
 
+.container {
+    width: auto;
+    height: auto;
+}
+
+
+
+
+/* COISAS DO CARROSEL */
+
 
 
 
@@ -40,6 +52,11 @@ body {
 
 .carrosel {
     box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.774);
+}
+
+.imagemcarousel {
+    max-width: 900px;
+    object-fit: cover !important;
 }
 
 .imagem-carrosel {
@@ -56,6 +73,14 @@ body {
     min-width: 100%;
     height: 100%;
 }
+
+
+
+
+/* COISAS DOS CARDS */
+
+
+
 
 .container-cards {
     margin-bottom: 5rem;
@@ -89,6 +114,14 @@ body {
 }
 
 
+
+
+
+/* COISAS DO FOOTER */
+
+
+
+
 .rodape {
     display: flex;
     justify-content: center;
@@ -99,4 +132,12 @@ body {
     width: 50%;
     margin-top: 3%;
     margin-bottom: 3%;
+}
+
+.botao {
+    margin-bottom: 2%;
+}
+
+.botao2 {
+    margin-top: 1%;
 }
