@@ -10,7 +10,6 @@ body {
 
 .navbar-site {
     background-color: #71563e !important;
-    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.438);
 }
 
 .elementos-navbar {
@@ -28,52 +27,16 @@ body {
     font-weight: bold;
 }
 
-.elementos-navbar a:hover {
-    color: gainsboro !important;
-}
-
-.container {
-    width: auto;
-    height: auto;
-}
-
-
 
 
 /* COISAS DO CARROSEL */
 
 
 
-
-.container-carrosel {
-    margin-top: 4rem;
-    margin-bottom: 8rem;
-}
-
 .carrosel {
-    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.774);
+    margin-top: 5rem;
+    margin-bottom: 3%;
 }
-
-.imagemcarousel {
-    max-width: 900px;
-    object-fit: cover !important;
-}
-
-.imagem-carrosel {
-    height: 32rem;
-    overflow: hidden;
-}
-
-.imagem-carrosel img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover !important;
-    padding: 0;
-    min-width: 100%;
-    height: 100%;
-}
-
 
 
 
@@ -81,20 +44,7 @@ body {
 
 
 
-
-.container-cards {
-    margin-bottom: 5rem;
-}
-
-.card-item {
-    margin-bottom: 2rem;
-}
-
-.card-item p {
-    text-align: center;
-}
-
-.card-item h5 {
+.card-item p, .card-item h5 {
     text-align: center;
 }
 
@@ -105,20 +55,13 @@ body {
 
 .carta {
     display: flex;
-    justify-content: center;    
+    justify-content: center;  
+    margin-bottom: 3rem;  
 }
-
-.imagem-card {
-    height: 10rem;
-    object-fit: cover;
-}
-
-
 
 
 
 /* COISAS DO FOOTER */
-
 
 
 
@@ -133,6 +76,12 @@ body {
     margin-top: 3%;
     margin-bottom: 3%;
 }
+
+
+
+/* BOTÕES DO MODAL E DO FORM */
+
+
 
 .botao {
     margin-bottom: 2%;
