@@ -1,2 +1,24 @@
 /*Marrom: #71563e */
 /*Verde: #dcc92e */
+/*Bege: #fefed5 */
+
+body {
+    background-color: #dcc92e;
+}
+
+.nav-treinamento {
+    background-color: #71563e;
+}
+
+.link-treinamento {
+    color: #dcc92e;
+}
+
+.link-treinamento:hover {
+    color: gainsboro;
+}
+
+.carousel-treinamento {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
