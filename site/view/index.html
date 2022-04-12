@@ -36,7 +36,7 @@
   <div class="container">
 
     <!--Início do Carrossel-->
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleInterval" class="carousel slide carrossel" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="5000">
           <img src="../public/img/shrek1.jpg" class="d-block w-100" alt="...">
@@ -64,16 +64,49 @@
 
 
     <!--Botão do Modal-->
+    <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Adicionar Card
+    </button>
     <!--Fim do Botão-->
 
 
 
     <!--Início dos Cards-->
+    <div class="d-flex justify-content-between">
+      <div class="card card-treinamento" style="width: 18rem;">
+        <img src="../public/img/shrek1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Eu Mesmo</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Conheça!</a>
+        </div>
+      </div>
+
+      <div class="card card-treinamento" style="width: 18rem;">
+        <img src="../public/img/shrek2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Eu Mesmo</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Conheça!</a>
+        </div>
+      </div>
+
+      <div class="card card-treinamento" style="width: 18rem;">
+        <img src="../public/img/shrek3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Eu Mesmo</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Conheça!</a>
+        </div>
+      </div>
     <!--Fim dos Cards-->
 
 
 
     <!--Início do Form-->
+      <div class="fim-pagina">
+        
+      </div>
     <!--Fim do Form-->
 
   </div>
@@ -81,7 +114,25 @@
 
 
   <!-------------------------------------Parte do Modal------------------------------------>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Minha Vida Todinha</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Desculpe, amigo... Minha vida toda já está nesses cards...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Adicionar</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <!--------------------------------------------------------------------------------------->
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

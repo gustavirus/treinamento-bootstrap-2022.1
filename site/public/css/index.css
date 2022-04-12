@@ -9,6 +9,8 @@ body {
 
 .nav-treinamento {
     background-color: #71563e;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .nav-treinamento a {
@@ -17,4 +19,30 @@ body {
 
 .nav-treinamento a:hover {
     color: gainsboro;
+}
+
+
+
+.carrossel {
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+
+
+.btn-modal {
+    background-color: #71563e;
+    margin-bottom: 1rem;
+    border-color: #71563e;
+}
+
+.btn-modal:hover {
+    background-color: #71563e;
+    border-color: gainsboro;
+}
+
+
+
+.card-treinamento {
+    text-align: center;
 }
