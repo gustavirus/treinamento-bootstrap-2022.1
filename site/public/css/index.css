@@ -22,3 +22,24 @@ body {
     margin-top: 3rem;
     margin-bottom: 4rem;
 }
+
+.botao1{
+    margin-bottom: 3rem;
+}
+
+.cartas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #fefed5;
+    margin-top: 2rem;
+  
+}
+
+.formulario {
+    max-width: 70%;
+}

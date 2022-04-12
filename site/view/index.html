@@ -61,8 +61,30 @@
   <!--Fim do Carousel-->
 
 
-
   <!--Início do Botão do Modal-->
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-dark botao1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Adicionar
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal do Shrek</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Sim amigo, o modal funciona
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Shrek</button>
+      </div>
+    </div>
+  </div>
+</div>
   <!--Fim do Botão do Modal-->
 
 
@@ -73,14 +95,52 @@
 
 
   <!--Início dos Cards-->
+<div class="cartas">
+  <div class="card" style="width: 18rem;">
+    <img src="../public/img/shrek1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Eu mesmo</h5>
+      <p class="card-text">Uma foto do ogro mais lindo do mundo</p>
+      <a href="#" class="btn btn-primary">Saiba mais</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="../public/img/shrek2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Eu e Fiona</h5>
+      <p class="card-text">O último ogro romântico</p>
+      <a href="#" class="btn btn-primary">Saiba mais</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="../public/img/shrek3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Eu e o burro</h5>
+      <p class="card-text">Ele é chato :/</p>
+      <a href="#" class="btn btn-primary">Saiba mais</a>
+    </div>
+  </div>
+</div>
   <!--Fim dos Cards-->
 
 
-
+</div>
   <!--Início do Footer-->
+<div class="footer">
+
+<div class="mensagem">
+  <label for="inputPassword5" class="form-label ">Mensagem</label>
+  <input type="text" id="inputPassword5" class="form-control formulario" aria-describedby="passwordHelpBlock">
+  <div id="passwordHelpBlock" class="form-text">
+    Escreva uma mensagem para o Shrek.
+  </div>
+</div>
+</div>
   <!--Fim do Footer-->
 
-  </div>
+  
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
