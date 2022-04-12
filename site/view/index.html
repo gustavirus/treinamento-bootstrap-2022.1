@@ -46,85 +46,146 @@
   </nav>
   <!--Fim da Navbar-->
 
-<div class="container">
+
+
   <!--Início do Carrosel-->
-  <div class="container-carrosel">
+  <div class="container">
+    <div class="container-carrosel">
 
-    <div id="carouselExampleInterval" class="carousel slide carrosel" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active imagem-carrosel" data-bs-interval="3000">
-          <img src="../public/img/shrek1.jpg" alt="...">
-        </div>
-        <div class="carousel-item imagem-carrosel" data-bs-interval="3000">
-          <img src="../public/img/shrek2.jpg" alt="...">
-        </div>
-        <div class="carousel-item imagem-carrosel" data-bs-interval="3000">
-          <img src="../public/img/shrek3.jpg" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-  </div>
-  <!--Fim do Carrosel-->
-
-
-  <!--Início dos Cards-->
-  <div class="container-cards">
-    <div class="row">
-
-      <div class="col-sm-4 carta">
-        <div class="card card-item" style="width: 19rem;">
-          <img src="../public/img/shrek1.jpg" class="card-img-top imagem-card" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Eu Mesmo</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Saiba Mais!</a>
+      <div id="carouselExampleInterval" class="carousel slide carrosel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active imagem-carrosel" data-bs-interval="3000">
+            <img src="../public/img/shrek1.jpg" alt="...">
+          </div>
+          <div class="carousel-item imagem-carrosel" data-bs-interval="3000">
+            <img src="../public/img/shrek2.jpg" alt="...">
+          </div>
+          <div class="carousel-item imagem-carrosel" data-bs-interval="3000">
+            <img src="../public/img/shrek3.jpg" alt="...">
           </div>
         </div>
-      </div>
-
-      <div class="col-sm-4 carta">
-        <div class="card card-item" style="width: 19rem;">
-          <img src="../public/img/shrek2.jpg" class="card-img-top imagem-card" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Eu e Fiona</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Saiba Mais!</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-4 carta">
-        <div class="card card-item" style="width: 19rem;">
-          <img src="../public/img/shrek3.jpg" class="card-img-top imagem-card" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Eu e o Burro</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Saiba Mais!</a>
-          </div>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
 
     </div>
+    <!--Fim do Carrosel-->
+
+
+
+    <!--Início do Modal mais simples-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Olha o modal funcionando</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Sim amigo, o modal funciona!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-primary">Shrek</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Fim do Modal-->
+
+
+
+    <!--Início do Modal com Formulário-->
+    <!-- <div class="modal fade" id="exampleModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body corpo-modal">
+            <div class="formulario-adiciona">
+              <h2>Preencha o formulário para adicionar um novo card</h2>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Título do card:</label>
+                <input type="text" class="form-control" id="nameFormInput">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Descrição:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlFile1">Imagem do card:</label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary">Shrek</button>
+              </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!--Fim do Modal com Formulário-->
+
+
+    <!--Início dos Cards-->
+    <div class="container-cards">
+      <div class="row">
+
+        <div class="col-sm-4 carta">
+          <div class="card card-item" style="width: 19rem;">
+            <img src="../public/img/shrek1.jpg" class="card-img-top imagem-card" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Eu Mesmo</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Saiba Mais!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 carta">
+          <div class="card card-item" style="width: 19rem;">
+            <img src="../public/img/shrek2.jpg" class="card-img-top imagem-card" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Eu e Fiona</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Saiba Mais!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 carta">
+          <div class="card card-item" style="width: 19rem;">
+            <img src="../public/img/shrek3.jpg" class="card-img-top imagem-card" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Eu e o Burro</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Saiba Mais!</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </div>
-</div>
   <!--Fim dos Cards-->
 
 
-  
+
   <!-- Começo do footer -->
   <div class="footer rodape">
 
